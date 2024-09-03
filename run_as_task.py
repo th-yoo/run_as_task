@@ -49,8 +49,8 @@ def run_as_admin_nix():
     if is_admin():
         return
 
+    import subprocess
     try:
-        import subprocess
         subprocess.check_call(['sudo', sys.executable] + sys.argv)
     except subprocess.CalledProcessError as e:
         print(f"Failed to run as root: {e}")
