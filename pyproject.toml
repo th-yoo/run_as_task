@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "run-as-task"
+version = "0.1.0"
+description = "`run_as_task` is a Python package that allows scripts to escalate their privileges to Administrator (Local Service) without requiring UAC approval."
+authors = ["th yoo <taihyungyoo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pywin32 = {version = "^306", platform = "win32"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
