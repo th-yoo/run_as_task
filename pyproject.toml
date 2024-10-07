@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "run_as_task"
-version = "0.1.3"
+version = "0.1.4"
 description = "`run_as_task` is a Python package that allows scripts to escalate their privileges to Administrator (Local Service) without requiring UAC approval."
 authors = ["th yoo <taihyungyoo@gmail.com>"]
 license = "MIT"
